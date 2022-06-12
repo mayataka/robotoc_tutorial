@@ -34,7 +34,7 @@
   </material>
   <!-- Material for the visual primitives -->
   <material name="anymal_material">
-    <color rgba="0.7 0.7 0.7 1."/>
+    <color rgba="0.4 0.4 0.4 1."/>
   </material>
   <!-- Xacro:Properties -->
   <!-- [m] -->
@@ -43,7 +43,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://anymal_b_simple_description/meshes/base/anymal_base.dae" scale="1 1 1"/>
+        <mesh filename="package://anymal_b_simple_description/meshes/base/anymal_base.obj" scale="1 1 1"/>
       </geometry>
       <material name="anymal_material"/>
     </visual>
@@ -126,7 +126,7 @@
     <visual>
       <origin rpy="0 0 0.0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://anymal_b_simple_description/meshes/hip/anymal_hip_l.dae" scale="1 1 1"/>
+        <mesh filename="package://anymal_b_simple_description/meshes/hip/anymal_hip_l.obj" scale="1 1 1"/>
       </geometry>
       <material name="anymal_material"/>
     </visual>
@@ -166,7 +166,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://anymal_b_simple_description/meshes/thigh/anymal_thigh.dae" scale="1 1 1"/>
+        <mesh filename="package://anymal_b_simple_description/meshes/thigh/anymal_thigh.obj" scale="1 1 1"/>
       </geometry>
       <material name="anymal_material"/>
     </visual>
@@ -213,7 +213,7 @@
     <visual>
       <origin rpy="0 0 0.0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://anymal_b_simple_description/meshes/shank/anymal_shank_l.dae" scale="1 1 1"/>
+        <mesh filename="package://anymal_b_simple_description/meshes/shank/anymal_shank_l.obj" scale="1 1 1"/>
       </geometry>
       <material name="anymal_material"/>
     </visual>
@@ -251,7 +251,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0.032"/>
       <geometry>
-        <mesh filename="package://anymal_b_simple_description/meshes/foot/anymal_foot.dae" scale="1 1 1"/>
+        <mesh filename="package://anymal_b_simple_description/meshes/foot/anymal_foot.obj" scale="1 1 1"/>
       </geometry>
       <material name="anymal_material"/>
     </visual>
@@ -309,7 +309,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://anymal_b_simple_description/meshes/hip/anymal_hip_r.dae" scale="1 1 1"/>
+        <mesh filename="package://anymal_b_simple_description/meshes/hip/anymal_hip_r.obj" scale="1 1 1"/>
       </geometry>
       <material name="anymal_material"/>
     </visual>
@@ -349,7 +349,7 @@
     <visual>
       <origin rpy="3.1416 3.1416 0.0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://anymal_b_simple_description/meshes/thigh/anymal_thigh.dae" scale="1 1 1"/>
+        <mesh filename="package://anymal_b_simple_description/meshes/thigh/anymal_thigh.obj" scale="1 1 1"/>
       </geometry>
       <material name="anymal_material"/>
     </visual>
@@ -396,7 +396,7 @@
     <visual>
       <origin rpy="0 0 0.0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://anymal_b_simple_description/meshes/shank/anymal_shank_r.dae" scale="1 1 1"/>
+        <mesh filename="package://anymal_b_simple_description/meshes/shank/anymal_shank_r.obj" scale="1 1 1"/>
       </geometry>
       <material name="anymal_material"/>
     </visual>
@@ -434,7 +434,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0.032"/>
       <geometry>
-        <mesh filename="package://anymal_b_simple_description/meshes/foot/anymal_foot.dae" scale="1 1 1"/>
+        <mesh filename="package://anymal_b_simple_description/meshes/foot/anymal_foot.obj" scale="1 1 1"/>
       </geometry>
       <material name="anymal_material"/>
     </visual>
@@ -492,7 +492,7 @@
     <visual>
       <origin rpy="0 0 -3.14159265359" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://anymal_b_simple_description/meshes/hip/anymal_hip_r.dae" scale="1 1 1"/>
+        <mesh filename="package://anymal_b_simple_description/meshes/hip/anymal_hip_r.obj" scale="1 1 1"/>
       </geometry>
       <material name="anymal_material"/>
     </visual>
@@ -532,7 +532,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://anymal_b_simple_description/meshes/thigh/anymal_thigh.dae" scale="1 1 1"/>
+        <mesh filename="package://anymal_b_simple_description/meshes/thigh/anymal_thigh.obj" scale="1 1 1"/>
       </geometry>
       <material name="anymal_material"/>
     </visual>
@@ -579,7 +579,7 @@
     <visual>
       <origin rpy="0 0 -3.14159265359" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://anymal_b_simple_description/meshes/shank/anymal_shank_r.dae" scale="1 1 1"/>
+        <mesh filename="package://anymal_b_simple_description/meshes/shank/anymal_shank_r.obj" scale="1 1 1"/>
       </geometry>
       <material name="anymal_material"/>
     </visual>
@@ -617,7 +617,7 @@
     <visual>
       <origin rpy="0 0 -3.14159265359" xyz="0 0 0.032"/>
       <geometry>
-        <mesh filename="package://anymal_b_simple_description/meshes/foot/anymal_foot.dae" scale="1 1 1"/>
+        <mesh filename="package://anymal_b_simple_description/meshes/foot/anymal_foot.obj" scale="1 1 1"/>
       </geometry>
       <material name="anymal_material"/>
     </visual>
@@ -675,7 +675,7 @@
     <visual>
       <origin rpy="0 0 -3.14159265359" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://anymal_b_simple_description/meshes/hip/anymal_hip_l.dae" scale="1 1 1"/>
+        <mesh filename="package://anymal_b_simple_description/meshes/hip/anymal_hip_l.obj" scale="1 1 1"/>
       </geometry>
       <material name="anymal_material"/>
     </visual>
@@ -715,7 +715,7 @@
     <visual>
       <origin rpy="0 0 -3.14159265359" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://anymal_b_simple_description/meshes/thigh/anymal_thigh.dae" scale="1 1 1"/>
+        <mesh filename="package://anymal_b_simple_description/meshes/thigh/anymal_thigh.obj" scale="1 1 1"/>
       </geometry>
       <material name="anymal_material"/>
     </visual>
@@ -762,7 +762,7 @@
     <visual>
       <origin rpy="0 0 -3.14159265359" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://anymal_b_simple_description/meshes/shank/anymal_shank_l.dae" scale="1 1 1"/>
+        <mesh filename="package://anymal_b_simple_description/meshes/shank/anymal_shank_l.obj" scale="1 1 1"/>
       </geometry>
       <material name="anymal_material"/>
     </visual>
@@ -800,7 +800,7 @@
     <visual>
       <origin rpy="0 0 -3.14159265359" xyz="0 0 0.032"/>
       <geometry>
-        <mesh filename="package://anymal_b_simple_description/meshes/foot/anymal_foot.dae" scale="1 1 1"/>
+        <mesh filename="package://anymal_b_simple_description/meshes/foot/anymal_foot.obj" scale="1 1 1"/>
       </geometry>
       <material name="anymal_material"/>
     </visual>
