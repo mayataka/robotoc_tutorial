@@ -1,0 +1,2 @@
+- Add the contact wrench cone in the humanoid example
+- Add a reduced-order humanoid example
