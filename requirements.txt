@@ -1,0 +1,6 @@
+jupyter
+notebook
+numpy
+matplotlib
+seaborn
+pybullet
